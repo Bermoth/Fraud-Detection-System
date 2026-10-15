@@ -12,7 +12,10 @@ kaggle.json
 # Python / Jupyter
 __pycache__/
 .ipynb_checkpoints/
-*.pyc
+*.py[cod]
 
 # Modèles lourds
 models/*.joblib
+
+# My individual XGBoost training script
+/src/train_model.py
